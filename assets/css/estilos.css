@@ -117,7 +117,7 @@ body {
 .cartao__conteudo {
   padding: 16px;
   display: grid;
-  grid-template-columns: 1fr 1fr; /*para que as colunas de conteudo tenham o mesmo espaço */
+  grid-template-columns: 1fr 1fr;
 }
 .cartao__destaque {
   grid-column: span 2; /* para que as duas colunas sejam "mescladas", ou fiquem na mesma linha*/
