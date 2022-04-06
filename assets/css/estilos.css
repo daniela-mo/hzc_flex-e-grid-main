@@ -28,6 +28,12 @@ body {
   font-size: 24px;
 }
 
-cabecalho__log {
+.cabecalho__logo {
   width: 40px;
+}
+
+.menu-lateral {
+  display: flex;
+  flex-direction: column;
+  align-self: center; /* centraliza apenas o primeito elemento da lista, que é o logo*/
 }
